@@ -1,0 +1,10 @@
+.gallery-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+
+}
+
+.gallery.item{
+    flex:
+}

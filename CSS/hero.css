@@ -1,0 +1,86 @@
+:root {
+   --max-width: 1024px;
+   --color-1: #9c4fd3;
+   --color-2: #F4A4EE;
+   --color-3: #F4A4C5;
+   --color-4: #FDF7FD;
+   --color-5:#4e1377;
+   --spotify-button: #1DB954;
+   --spotify-text:#191414;
+   --max-widht: 1100px;
+   --font-primary: "Marck Script", cursive;
+   --font-secundary: "Monda", sans-serif;
+   --font-spotify: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    background-image: url(../assets/img/ChatGPT\ Image\ 27\ jul\ 2026\,\ 12_00_30\ a.m..png) ;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 3rem;
+    align-items: flex-start;
+    text-align: left;
+
+}
+
+.hero p {
+    max-width: 50%;
+}
+
+
+.card-title {
+    font-family: var(--font-secundary);
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+    color: var(--color-1);
+
+}
+
+.card-section {
+    max-width: var(--max-widht);
+    margin: 0 auto;
+    padding: 0rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.cards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card {
+background-color: var(--color-3);
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 4px var(--color-1);
+flex-direction: column;
+max-width: 320px;
+margin-bottom: 4rem;
+}
+
+.card img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+padding: 1.5rem;
+display: flex;
+flex-direction: column;
+gap:0.8rem;
+flex: 1;
+
+}
+
+.card-body p {
+    flex: 1;
+    font-size: 1rem;
+}
