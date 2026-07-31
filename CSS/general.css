@@ -22,8 +22,6 @@
 
 
 body {
-   background-image: url(../assets/img/CARD-BACKGROUND.jpg);
-   
    color: var(--color-1);
    line-height: 1.6;
    min-height: 10vh;
@@ -33,6 +31,7 @@ body {
 
 
 }
+
 
 a {
    text-decoration: none;
