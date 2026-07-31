@@ -81,17 +81,18 @@ header {
 .spotify-btn {
    background-color: var(--spotify-button);
    color: var(--spotify-text);
-   width: 8rem;
-   padding: 0.6rem;
+   width: 12rem;
+   padding: 0.7rem;
    margin: 1rem;
    border-radius: 100px;
    display: flex;
    justify-content: center;
+   align-items:first baseline;
+   gap: 0.5rem;
    font-style: normal;
    font-family: var(--font-spotify);
-
-
-  }
+   font-weight: bold;
+   }
 
   footer{
    background-color: var(--color-3);
@@ -121,4 +122,3 @@ header {
   }
 
 
-  
