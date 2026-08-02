@@ -8,14 +8,16 @@
     display: flex;
     flex-wrap: wrap;
     gap: 0.8rem;
+
 }
 
 .gallery-item{
     flex: 1 1 220px;
-    height: 30rem;
+    height: 20rem;
     object-fit: cover;
     border-radius: 8px;
     transition: transform 0.3s;
+    max-width: 80vw;
     }
 
     .gallery-item:hover{

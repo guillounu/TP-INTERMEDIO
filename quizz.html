@@ -4,55 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quizz</title>
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Monda:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monda:wght@400..700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <script src="https://kit.fontawesome.com/f4fbe20253.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
     <header>
-    <nav  >
-        <a class="barra-nav" href="index.html">Olivia Rodrigo</a>
 
-        <ul class="nav-options">
-            <li> <a href="GIRAS.html">GIRAS</a></li>
-            <li><a href="VIDEOS.html">VIDEOS</a></li>
-            <li><a href="quizz.html">QUIZZ</a></li>
-        </ul>
-    </nav>
-   </header>
+        <nav>
+            <a class="barra-nav" href="index.html"><i class="fa-brands fa-bluesky"></i>Olivia Rodrigo</a>
+            <ul class="nav-options">
+                <li> <a href="GIRAS.html">GIRAS</a></li>
+                <li><a href="FILMOGRAFÍA.html">FILMOGRAFÍA</a></li>
+                <li><a href="quizz.html">QUIZZ</a></li>
+            </ul>
+        </nav>
+    </header>
     <h1 class="page-title">¿Cuanto sabes de Olivia?</h1>
    <section class="main-section">
     <form>
          <div class="form-group">
-         <label for="">pregunta libre no</label>
-         <input type="text" placeholder="respuesta libre">
+         <label for="olivias-name">¿Cuál es su nombre completo?</label>
+         <input type="text" name="olivias-name" id="olivias-name"  placeholder="Olivia...">
          </div>
-         <div>
-            <label for="">segunda pregunta libre</label>
-            <input type="text" placeholder="resouesta 2">
+         <div class="form-group">
+            <label for="olivias-country">¿En qué país nació?</label>
+            <input type="text" name="olivias-country" id="olivias-country" placeholder="...">
          </div>
+         <div class="form-group">
+            <label for="year">¿En qué año nació?</label>
+            <input type="number" name="year" id="year" placeholder="20..">
+          </div>
           <div class="form-group">
-              <label for="reason">lista</label>
+              <label for="reason">¿Cuál fue su primer album?</label>
               <select name="reason" id="reason">
-              <option value="" disabled selected>pregunta</option>
-              <option value="">opcion2</option>
-              <option value="">otra</option>
+              <option value="" disabled selected>Seleccione una opción</option>
+              <option value="">GUTS</option>
+              <option value="">SOUR</option>
+              <option value="">you seem pretty sad for a girl so in love</option>
               </select>
           </div>
+          <div class="form-group">
+            <label for="album-date">¿En qué fecha lo lanzó?</label>
+            <input type="date" name="album-date" id="album-date">
+          </div>
+          
           <fieldset>
-            <legend> mmm?</legend>
-            <div>
-                <input type="radio">
+            <legend>¿Cómo se llaman sus otros discos?</legend>
+            <div class="radio-group">
+                <input type="radio">Teenage dream
+                <input type="radio" name="" id="">SOUR
+                <input type="radio" name="" id="">Hope ur ok
+                <input type="radio" name="" id="">GUTS
+                <input type="radio" name="" id="">Unraveled
+                <input type="radio" name="" id="">you seem pretty sad for a girl so in love
             </div>
           </fieldset>
+          <div class="form-group">
+              <label for="reason">¿Cuál es su canción más exitosa?</label>
+              <select name="reason" id="reason">
+              <option value="" disabled selected>Seleccione una opción</option>
+              <option value="">Good 4 u</option>
+              <option value="">Favorite crime</option>
+              <option value="">The cure</option>
+              <option value="">Drivers License</option>
+              </select>
+          </div>
+          <div class="botones"> <button class="btn btn-primary" type="reset">Vaciar</button>
+          <button class="btn btn-secondary" type="submit">Enviar</button></div>
+
+         
     </form>
+
    </section>
+    <footer>
+        <ul class="footer-nav">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="/quizz.html">QUIZZ</a></li>
+            <li><a href="./GIRAS.html">Giras</a></li>
+            <li><a href="./VIDEOS.html">Videos</a></li>
+        </ul>
+        <div class="footer-social">
+            <a href="https://www.instagram.com/oliviarodrigo/" aria-label="instagram"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCy3zgWom-5AGypGX_FVTKpg" aria-label="YouTube"><i
+                    class="fa-brands fa-youtube"></i>
+                <a href="https://x.com/oliviarodrigo?lang=es" aria-label="X-Twitter"><i
+                        class="fa-brands fa-square-x-twitter"></i>
+                    <a href="https://open.spotify.com/intl-es/artist/1McMsnEElThX1knmY4oliG" aria-label="Spotify"><i
+                            class="fa-brands fa-spotify"></i></a>
+                </a>
+            </a>
+        </div>
+    </footer>
     
 </body>
 </html>

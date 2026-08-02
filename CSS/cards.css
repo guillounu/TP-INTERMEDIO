@@ -60,5 +60,14 @@ flex: 1;
     font-size: 1rem;
 }
 
+.musica-section h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+font-size: 45px;
+background-color: var(--color-3);
+color: var(--color-4);
+margin-bottom: 20px;
 
+}
     
