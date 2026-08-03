@@ -1,13 +1,13 @@
 
 
-@import url("general.css");
+@import url(./general.css);
 
-@import url("hero.css");
+@import url(../pages/cards.css);
 
-@import url("GIRAS.css");
+@import url(../pages/FILMOGRAFÍA.css);
 
-@import url(QUIZZ.css);
+@import url(../pages/GIRAS.css);
 
-@import url(cards.css);
-
-@import url(FILMOGRAFÍA.css);
+@import url(../pages/hero.css);
+ 
+@import url(../pages/QUIZZ.css);
